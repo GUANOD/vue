@@ -11,7 +11,9 @@ Vue.createApp({
   methods: {
     say(msg, msg2) {
       alert(msg);
-      alert(msg2);
+      if (window.confirm(msg2)) {
+        window.location.href = "https://www.youtube.com/watch?v=IJmIGC0nwK0";
+      }
     },
 
     inputOne(event) {
