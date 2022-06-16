@@ -19,11 +19,12 @@
       <h1 class="text-center">exo</h1>
       <div class="card" style="width: 18rem">
         <img v-bind:src="pic" class="card-img-top" alt="" />
-        <div class="card-body">
+        <div class="card-body text-center">
           <h5 class="card-title">{{nom}}</h5>
           <p class="card-text">{{age}} ans</p>
           <p class="card-text">absolute fav number {{randomNumber()}}</p>
           <p class="card-text">age + 10 : {{plusten()}}</p>
+          <input v-bind:value="nom" type="text" class="form-controll" />
         </div>
       </div>
     </div>
