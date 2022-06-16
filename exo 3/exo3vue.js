@@ -9,10 +9,10 @@ Vue.createApp({
   // Dans cet Object methods, on va écrire nos fonctions
   methods: {
     addNumber() {
-      this.number += 1;
+      this.number++;
     },
     delNumber() {
-      this.number -= 1;
+      this.number--;
     },
   },
   // L'application est montée sur la balise HTML qui possède l'id app
